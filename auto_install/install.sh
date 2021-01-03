@@ -1368,7 +1368,7 @@ if [ "${runUnattended}" = 'false' ]; then
                       enableIP6Listener="false"
                       return
                 fi
-		
+
 		if (whiptail --title "IPv6" --yesno --defaultno "Do you want the server to listen on IPv6?" ${r} ${c}); then
 			enableIP6Listener="true"
 		else
